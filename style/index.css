@@ -187,30 +187,10 @@ footer nav a {
     text-decoration: none;
 }
 @media(max-width: 800px){
-  #home .text{
-    width:90%;
-  }
-  .container{
-    display:flex;
-    justify-content:space-around;
-  }
-  .top-content{
-    text-align:center;
-  }
-  .middle-content{
-    text-align:center;
-  }
-  .bottom-content{
-    text-align:center;
-  }
-  footer form{
-    width:100%;
-  }
-}
-@media(max-width: 500px){
   header nav{
+    width:100%;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     align-items:center;
   }
   .opener{
@@ -224,25 +204,89 @@ footer nav a {
     flex-direction:row;
     align-items:center;
   }
+  .headline{
+    width:95%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .top-content{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .middle-content{
+    width:100%;
+    display:flex;
+    flex-direction:column;    
+    align-items:center;
+  }
+  .boxes{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+  .bottom-content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+  footer nav{
+    width:100%;
+    flex-direction:row;
+    text-align:center;
+  }
+}
+@media(max-width: 500px){
+  header nav{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .opener{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .links{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .headline{
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
   .top-content{
     display:flex;
     flex-direction:column;
     align-items:center;
   }
   .middle-content{
+    witdth:100%;
     display:flex;
     flex-direction:column;
     align-items:center;
   }
   .boxes{
     width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
   }
   .bottom-content{
     display:flex;
     flex-direction:column;
     align-items:center;
   }
-  footer{
+  footer nav{
     width:100%;
     flex-direction:column;
     text-align:center;
