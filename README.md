@@ -72,7 +72,7 @@ Your finished project must include all of the following requirements:
 
 * [x] Build the HTML and CSS to create the missing navigation and header
 * [x] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
-* [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
+* [x] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
 *  Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
@@ -110,6 +110,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master
