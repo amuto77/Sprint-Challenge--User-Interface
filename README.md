@@ -35,14 +35,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+A semantic element clearly describes its meaning to both the browser and the developer.
 
 2. What are the 4 areas of the box model?
+Margin, Border, Padding, and Content
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The flexbox items are aligned at the center of the cross axis. The cross axis is vertical. This means the flexbox items will be centered vertically.
 
 4. Explain why git is valuable to a team of developers.
+It allows a team of multiple developers to work on the same area of code.
 
 5. Define mobile-first design in your own words.
+Mobile-first design is start aesthetic website design with the mobile screen in mind first.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -65,8 +70,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design files](/design). Notice the navigation and header images are missing in the starter code.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header
-* [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
+* [x] Build the HTML and CSS to create the missing navigation and header
+* [x] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
 * [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
 *  Add responsive breakpoints to your code by using media queries
 
