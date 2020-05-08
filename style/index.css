@@ -24,25 +24,27 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-.opener{
-  display:flex;
-  justify-content:space-evenly;
-  align-items:center;
-}
-a {
-  color:black;
-  padding:2rem;
-}
-.headline{
-  padding-left:4.5rem;
-  padding-right:4.5rem;
-}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+}
+.opener{
+  display:flex;
+  justify-content:space-evenly;
+  align-content:stretch;
+}
+a {
+  color:black;
+  padding:2rem;
+}
+.headline{
+  width:100%;
+  display:flex;
+  align-content:stretch;
 }
 ol, ul {
 	list-style: none;
